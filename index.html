@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Generator</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js" type="module"></script>
+</head>
+<body><br><br>
+    <br>
+    
+    <div class="shape" style="text-align: center;">
+        <br>
+        <h1 style="color: blue">Shape Generator</h1>
+        <br>
+        <p id="para1">Select shape and Number of shapes and color</p>
+        <br>
+        <div>
+            <input type="radio" name="name" value="circle" id="circle" checked > Circle<br>
+            <input type="radio" name="name" value="rectangle" id="rectangle"> Rectange<br>
+            <input type="radio" name="name" value="square" id="square"> Square
+        </div>
+        <br>
+        <div>
+            <input type="color" id="color" style="border-radius: 50px;">Select the color
+        </div>
+        <br >
+        <div>
+            <input type="number" id="number" name="sh">
+            <button id="button">Generate</button>
+        </div>
+        <br><br>
+    </div>
+    <div class="display">
+        <div class="box" id="box"></div>
+    </div>
+</body>
+</html>
